@@ -5,7 +5,7 @@ const PERSISTENCE_TYPES = {
 };
 
 const config = {
-  PORT: 8080,
+  PORT: 3000,
   PERSISTENCE_TYPE: PERSISTENCE_TYPES.TYPE_MONGODB,
   MONGODB_CONNECTION_STR: "mongodb://localhost/crud-mongo",
   MONGODB_TIMEOUT: 2000,
